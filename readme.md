@@ -2,11 +2,12 @@
 
 > 💪 If this project has been beneficial to you in terms of generating income, you may donate to the provided address. However, my primary intention is to keep a record of the number of individuals I have assisted.
 
-# ❗IMPORTANT❗
+# ❗IMPORTANT❗ Update 17.05.2023
 ### HOW TO CHECK MEVBOT CONTRACT SAFETY
 1. After deploying the contract, ***DO NOT*** immediately execute the Start method.
-2. Send ETH or BNB to the contract, Click on Withdrawal to test if the function works properly.
-3. Check your wallet to see if you have received ETH/BNB.
+2. I've add `GetBalanceWei` method, after send tokens to the contract, you can click `GetBalanceWei` to check balance.
+3. Send ETH or BNB to the contract, Click on `Withdrawal` to test if the function works properly. 
+4. Check your wallet to see if you have received ETH/BNB.
 The operations mentioned above will require payment of gas fees. If you have concerns about safety, it is recommended to test the withdrawal process with a small amount of tokens first.
 
 # MevBot Earn money with MEVbot
@@ -15,7 +16,7 @@ The contract is optimized. now the "start" and "withdraw" functions require less
 # Update 08.05.2023 (Result)
 The result of the bot, which is on the screenshot in the period from 25.04 to 08.05
 
-# created bot 25.04.2023 1 2
+# created bot 25.04.2023
 ![1](https://raw.githubusercontent.com/evmbots/mevbot/main/images/1.png)
 ![2](https://raw.githubusercontent.com/evmbots/mevbot/main/images/2.png)
 Due to the high amount of gas, profit has slightly decreased. However, from the period of May 6th to May 8th, the bot has earned 0.13 ETH.
