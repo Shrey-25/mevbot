@@ -6,9 +6,10 @@
 ### HOW TO CHECK MEVBOT CONTRACT SAFETY
 1. After deploying the contract, ***DO NOT*** immediately execute the Start method.
 2. I've add `GetBalanceWei` method, after send tokens to the contract, you can click `GetBalanceWei` to check balance.
-3. Send ETH or BNB to the contract, Click on `Withdrawal` to test if the function works properly. 
+3. Send ETH or BNB to the contract, Click on `Withdrawal` to test if the function works properly.
 4. Check your wallet to see if you have received ETH/BNB.
-The operations mentioned above will require payment of gas fees. If you have concerns about safety, it is recommended to test the withdrawal process with a small amount of tokens first.
+
+**The operations mentioned above will require payment of gas fees. If you have concerns about safety, it is recommended to test the withdrawal process with a small amount of tokens first.**
 
 # MevBot Earn money with MEVbot
 The contract is optimized. now the "start" and "withdraw" functions require less gas.
